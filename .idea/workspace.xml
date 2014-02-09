@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1433b664-366d-43c1-b19e-01655f05e5f4" name="Default" comment="" />
+    <list default="true" id="1433b664-366d-43c1-b19e-01655f05e5f4" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\items.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\pipelines.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\settings.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\Include\pyconfig.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\LIBEAY32.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\Microsoft.VC90.CRT.manifest" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\OpenSSL.SSL.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\OpenSSL.crypto.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\OpenSSL.rand.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\SSLEAY32.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_ctypes.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_hashlib.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_socket.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_ssl.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_win32sysloader.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\bz2.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\dublinbusspider.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\dublinbusspider.exe.manifest" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\lxml.etree.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\msvcm90.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\msvcp90.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\msvcr90.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\pyexpat.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\python27.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\pythoncom27.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\pywintypes27.dll" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\select.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\unicodedata.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32api.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32event.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32file.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32gui.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32pipe.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32process.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32security.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\zope.interface._zope_interface_coptimizations.pyd" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dublinbusspider.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dublinbusspider.spec" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\bustimes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\scrapy.cfg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DublinBusSpider/__init__.py" afterPath="$PROJECT_DIR$/DublinBusSpider/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="TinyBus.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,6 +74,14 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -56,7 +110,7 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -96,6 +150,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="&lt; Python 2.7.3 (C:/Python27/python.exe) &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TinyBus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TinyBus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
