@@ -6,5 +6,5 @@ A dublin bus RTPI times scraper for the use in a tiny RTPI personal display alar
 Requirements
 =============
 
-*Python 2.7
-*Scrapy (https://github.com/scrapy/scrapy)
+*   Python 2.7
+*   Scrapy (https://github.com/scrapy/scrapy)
