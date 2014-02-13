@@ -1,51 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1433b664-366d-43c1-b19e-01655f05e5f4" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\items.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\pipelines.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\settings.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\Include\pyconfig.h" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\LIBEAY32.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\Microsoft.VC90.CRT.manifest" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\OpenSSL.SSL.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\OpenSSL.crypto.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\OpenSSL.rand.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\SSLEAY32.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_ctypes.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_hashlib.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_socket.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_ssl.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\_win32sysloader.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\bz2.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\dublinbusspider.exe" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\dublinbusspider.exe.manifest" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\lxml.etree.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\msvcm90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\msvcp90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\msvcr90.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\pyexpat.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\python27.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\pythoncom27.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\pywintypes27.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\select.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\unicodedata.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32api.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32event.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32file.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32gui.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32pipe.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32process.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\win32security.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dist\dublinbusspider\zope.interface._zope_interface_coptimizations.pyd" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dublinbusspider.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\DublinBusSpider\spiders\dublinbusspider.spec" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\bustimes.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alan\PycharmProjects\TinyBus\DublinBusSpider\scrapy.cfg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DublinBusSpider/__init__.py" afterPath="$PROJECT_DIR$/DublinBusSpider/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="1433b664-366d-43c1-b19e-01655f05e5f4" name="Default" comment="Fixed expired code, added">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bustimes.html" afterPath="$PROJECT_DIR$/bustimes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TinyBus.iws" />
@@ -68,7 +25,19 @@
     <favorites_list name="TinyBus" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="dublinbusspider.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DublinBusSpider/spiders/dublinbusspider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="54" selection-start="907" selection-end="907" vertical-scroll-proportion="0.5221843" vertical-offset="102" max-vertical-offset="799">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -101,6 +70,7 @@
         <option value="$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/scrapy.cfg" />
         <option value="$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/DublinBusSpider/settings.py" />
         <option value="$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/DublinBusSpider/spiders/dublinbusspider.py" />
+        <option value="$PROJECT_DIR$/DublinBusSpider/spiders/dublinbusspider.py" />
       </list>
     </option>
   </component>
@@ -142,14 +112,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="TinyBus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Python 2.7.3 (C:/Python27/python.exe) &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -194,6 +156,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hunter-Gatherer" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -469,22 +432,40 @@
       <created>1391879423879</created>
       <updated>1391879423879</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rearrange folder structure">
+      <created>1391916458817</created>
+      <updated>1391916458817</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixed expired code, added night test mode">
+      <created>1392253810380</created>
+      <updated>1392253810380</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed expired code, added night mode testing, fixed midnight hour time">
+      <created>1392253874670</created>
+      <updated>1392253874670</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Formatted, Removed disability column">
+      <created>1392315018402</created>
+      <updated>1392315018402</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4838946" sideWeight="0.67156863" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2137628" sideWeight="0.67156863" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -498,77 +479,50 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Rearrange folder structure" />
+    <MESSAGE value="Fixed expired code, added night test mode" />
+    <MESSAGE value="Fixed expired code, added night mode testing, fixed midnight hour time" />
+    <MESSAGE value="Formatted, Removed disability column" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatted, Removed disability column" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/templates/project/scrapy.cfg">
+    <entry file="file://$PROJECT_DIR$/DublinBusSpider/spiders/dublinbusspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="37" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DublinBusSpider/spiders/dublinbusspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DublinBusSpider/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/templates/spiders/basic.tmpl">
+    <entry file="file://$PROJECT_DIR$/DublinBusSpider/spiders/dublinbusspider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/templates/spiders/crawl.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="20" selection-start="529" selection-end="529" vertical-scroll-proportion="0.7064935" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/contrib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/selector/csstranslator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/selector/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="271" selection-end="271" vertical-scroll-proportion="0.44155845" vertical-offset="0" max-vertical-offset="385" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/DublinBusSpider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/DublinBusSpider/spiders/dublinbusspider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="278" selection-end="278" vertical-scroll-proportion="0.48991355" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapy/scrapy/DublinBusSpider/DublinBusSpider/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="385" />
+        <state line="24" column="54" selection-start="907" selection-end="907" vertical-scroll-proportion="0.5221843" vertical-offset="102" max-vertical-offset="799">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
