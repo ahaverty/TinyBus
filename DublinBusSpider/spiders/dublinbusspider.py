@@ -21,14 +21,21 @@ class DublinBusSpider(Spider):
         else:
             page_elmnt = "//table[@id='rtpi-results']"
 
-
-        realtime_table = hxs.xpath(page_elmnt).extract()
+        """realtime_table = hxs.xpath(page_elmnt).extract()"""
+        realtime_table = hxs.xpath(page_elmnt).css('tr td').extract()
         print(realtime_table)
 
         Html_file= open("bustimes.html","w")
         Html_file.write("<html><body>")
+        count=1
         for item in realtime_table:
-            Html_file.write("%s\n" % item)
+            if (count%4 != 0):
+                Html_file.write("%s" % item)
+            Html_file.write("<br />")
+            count=count+1
+
         Html_file.write("</body></html>")
         Html_file.close()
+
+
 
