@@ -1,6 +1,6 @@
 from scrapy.spider import Spider
-from scrapy.selector import HtmlXPathSelector
-
+from scrapy.selector import Selector
+from datetime import datetime, time
 
 
 class DublinBusSpider(Spider):
@@ -12,11 +12,17 @@ class DublinBusSpider(Spider):
         self.start_urls = ['http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=view&searchquery=%s' % stop_number]
 
     def parse(self, response):
-        hxs = HtmlXPathSelector(response)
+        hxs = Selector(response)
 
-        page_elmnt = "//table[@id='rtpi-results']"
+        now = datetime.now()
+        now_time = now.time()
+        if now_time >= time(24,00) and now_time <= time(06,00):
+            page_elmnt = "//div[@id='stop-detail']"
+        else:
+            page_elmnt = "//table[@id='rtpi-results']"
 
-        realtime_table = hxs.select(page_elmnt).extract()
+
+        realtime_table = hxs.xpath(page_elmnt).extract()
         print(realtime_table)
 
         Html_file= open("bustimes.html","w")
