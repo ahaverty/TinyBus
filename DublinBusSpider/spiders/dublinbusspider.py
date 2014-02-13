@@ -16,7 +16,7 @@ class DublinBusSpider(Spider):
 
         now = datetime.now()
         now_time = now.time()
-        if now_time >= time(24,00) and now_time <= time(06,00):
+        if now_time >= time(00,00) and now_time <= time(06,00):
             page_elmnt = "//div[@id='stop-detail']"
         else:
             page_elmnt = "//table[@id='rtpi-results']"
