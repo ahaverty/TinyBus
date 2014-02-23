@@ -1,4 +1,4 @@
-TinyDublinBus
+TinyBus
 =============
 
 A dublin bus RTPI times scraper for the use in a tiny RTPI personal display alarm/board.
