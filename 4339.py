@@ -112,7 +112,7 @@ def scraper():
 			j+=1
 
 	for k in range(0,j*3):
-	val[k] = val[k][:8] + (val[k][8:] and '..')    # Shorten bus description and add trail if over 8 chars long
+		val[k] = val[k][:8] + (val[k][8:] and '..')    # Shorten bus description and add trail if over 8 chars long
 
 	print val[k] # Test output onscreen
 
