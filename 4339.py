@@ -78,7 +78,7 @@ def main():
 
 	lcd_init()
 
-    # Keep loop open and auto update information
+	# Keep loop open and auto update information
 	while(True):
 		bus_program()
 
@@ -87,31 +87,31 @@ def main():
 
 def scraper():
 
-    # Test bus page for after midnight
-    page = "http://www.ahaverty.com/tiny/bus15.htm"
+	# Test bus page for after midnight
+	page = "http://www.ahaverty.com/tiny/bus15.htm"
 
-    # Live bus page
+	# Live bus page
 	#page = "http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=view&searchquery=4339"
 
 
-    html = urlopen(page).read()
-    doc = lh.fromstring(html)
-    val = []
+	html = urlopen(page).read()
+	doc = lh.fromstring(html)
+	val = []
 
-    i=0
-    j=0
+	i=0
+	j=0
 
-    for tr in doc.cssselect('#rtpi-results td:nth-child(-n+1)'):
-        if(i<3):
-            val.append(nltk.clean_html(tr.text_content()))
-            i+=1
+	for tr in doc.cssselect('#rtpi-results td:nth-child(-n+1)'):
+		if(i<3):
+			val.append(nltk.clean_html(tr.text_content()))
+			i+=1
 
-        # Skip col of images and move to new row
-        else:
-            i=0
-            j+=1
+		# Skip col of images and move to new row
+		else:
+			i=0
+			j+=1
 
-    for k in range(0,j*3):
+	for k in range(0,j*3):
 	val[k] = val[k][:8] + (val[k][8:] and '..')    # Shorten bus description and add trail if over 8 chars long
 
 	print val[k] # Test output onscreen
@@ -123,95 +123,95 @@ def bus_program():
 
 	bus = scraper()
 
-    busMes = []
+	busMes = []
 
-    maxBus = len(bus)
-    maxRow = maxBus/3
-
-
-    # Test for onscreen output
-    print("Bus ")
-    print(maxBus)
-    print("Row ")
-    print(maxRow)
+	maxBus = len(bus)
+	maxRow = maxBus/3
 
 
-    j=0
-    i=0
+	# Test for onscreen output
+	print("Bus ")
+	print(maxBus)
+	print("Row ")
+	print(maxRow)
 
-    # Creates the messages for output
-    while(j<maxRow):
 
-        # If bus isn't 'Due', format time for calculation
-        if(bus[i+2]!='Due'):
-            s1=bus[i+2]
-            localtime = time.localtime()
-            s2=time.strftime("%H:%M", localtime)
+	j=0
+	i=0
 
-            FMT = '%H:%M'
+	# Creates the messages for output
+	while(j<maxRow):
 
-            tdelta = datetime.strptime(s1,FMT) - datetime.strptime(s2,FMT)
+		# If bus isn't 'Due', format time for calculation
+		if(bus[i+2]!='Due'):
+			s1=bus[i+2]
+			localtime = time.localtime()
+			s2=time.strftime("%H:%M", localtime)
 
-            timeleft = str(tdelta)
-            timeleftfrm = timeleft[2:4]+"min"
+			FMT = '%H:%M'
 
-        # Else format Due for output
-        else:
-            timeleftfrm = "Due".rjust(5)
+			tdelta = datetime.strptime(s1,FMT) - datetime.strptime(s2,FMT)
 
-        # Formatting for the final message thats outputted on the TinyBus
-        busMes.append(bus[i].ljust(3)+" "+bus[i+1]+" "+timeleftfrm)
+			timeleft = str(tdelta)
+			timeleftfrm = timeleft[2:4]+"min"
 
-        j+=1
-        i+=3
+		# Else format Due for output
+		else:
+			timeleftfrm = "Due".rjust(5)
 
-    i=0
-    cycle=0
-    # Outputs the messages onto the TinyBus
-    while(cycle<maxRow):
+		# Formatting for the final message thats outputted on the TinyBus
+		busMes.append(bus[i].ljust(3)+" "+bus[i+1]+" "+timeleftfrm)
 
-        # Display if bus data is available
-        if(bus[0]):
-            clrscrn()
+		j+=1
+		i+=3
 
-            lcd_byte(LCD_LINE_1, LCD_CMD)
-            lcd_string(busMes[i])
+	i=0
+	cycle=0
+	# Outputs the messages onto the TinyBus
+	while(cycle<maxRow):
 
-            time.sleep(MAX_EXEC)
+		# Display if bus data is available
+		if(bus[0]):
+			clrscrn()
 
-            # If there is a second bus to display,
-            # then print its message and increment
-            if(i+1<maxRow-1):
-                lcd_byte(LCD_LINE_3, LCD_CMD)
-                lcd_string(busMes[i+1])
-                i+=2
+			lcd_byte(LCD_LINE_1, LCD_CMD)
+			lcd_string(busMes[i])
 
-            # Or if the second bus is the last bus in this set
-            # then print it but reset the increment for new data
-            elif(i+1==maxRow-1):
-                lcd_byte(LCD_LINE_3, LCD_CMD)
-                lcd_string(busMes[i+1])
-                i=0
+			time.sleep(MAX_EXEC)
 
-            # If none of the above occured (ie there was a first line but no second line)
-            # then print the current date and time and reset the count to zero for new data
-            else:
-                dateTimeStamp = "  "+time.strftime("%d/%m/%Y")+" "+time.strftime("%H:%M")
-                print ("TESTING DATETIMESTAMP>>")
+			# If there is a second bus to display,
+			# then print its message and increment
+			if(i+1<maxRow-1):
+				lcd_byte(LCD_LINE_3, LCD_CMD)
+				lcd_string(busMes[i+1])
+				i+=2
 
-                lcd_byte(LCD_LINE_3, LCD_CMD)
-                lcd_string(dateTimeStamp)
-                i=0
+			# Or if the second bus is the last bus in this set
+			# then print it but reset the increment for new data
+			elif(i+1==maxRow-1):
+				lcd_byte(LCD_LINE_3, LCD_CMD)
+				lcd_string(busMes[i+1])
+				i=0
 
-        # Print unavailable message if no data available
-        else:
-            lcd_byte(LCD_LINE_1, LCD_CMD)
-            lcd_string("   No Realtime")
-            lcd_byte(LCD_LINE_3, LCD_CMD)
-            lcd_string("   Info Available.")
+			# If none of the above occured (ie there was a first line but no second line)
+			# then print the current date and time and reset the count to zero for new data
+			else:
+				dateTimeStamp = "  "+time.strftime("%d/%m/%Y")+" "+time.strftime("%H:%M")
+				print ("TESTING DATETIMESTAMP>>")
 
-        time.sleep(7)
-        cycle+=1
+				lcd_byte(LCD_LINE_3, LCD_CMD)
+				lcd_string(dateTimeStamp)
+				i=0
+
+		# Print unavailable message if no data available
+		else:
+			lcd_byte(LCD_LINE_1, LCD_CMD)
+			lcd_string("   No Realtime")
+			lcd_byte(LCD_LINE_3, LCD_CMD)
+			lcd_string("   Info Available.")
+
+		time.sleep(7)
+		cycle+=1
 
 
 def clrscrn():
@@ -219,50 +219,50 @@ def clrscrn():
 	lcd_byte(0x00,LCD_CMD)
 	time.sleep(MAX_EXEC)
 
-    lcd_byte(0x01,LCD_CMD)
-    time.sleep(MAX_EXEC)
+	lcd_byte(0x01,LCD_CMD)
+	time.sleep(MAX_EXEC)
 
 
 
 def lcd_init():
-  	
+	
 	print("Starting Init...")
 	time.sleep(0.002) # Wait for power stabilisation
-  	
+	
 	print("Configuring bit-modes...")
 	lcd_byte(0x02,LCD_CMD) # Set to 4Bit Mode
 	time.sleep(MAX_EXEC)
 	lcd_byte(0x02,LCD_CMD) # Return to home
-    time.sleep(MAX_EXEC)
+	time.sleep(MAX_EXEC)
 	lcd_byte(0x08,LCD_CMD) # Sets font to '00' english
-    time.sleep(MAX_EXEC)
+	time.sleep(MAX_EXEC)
 	
 	lcd_byte(0x00,LCD_CMD) #  
 	time.sleep(MAX_EXEC)
-    lcd_byte(0x08,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
+	lcd_byte(0x08,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
 
-    lcd_byte(0x00,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
-    lcd_byte(0x01,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
+	lcd_byte(0x00,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
+	lcd_byte(0x01,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
 
-    lcd_byte(0x00,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
-    lcd_byte(0x06,LCD_CMD) # Sets write mode 
-    time.sleep(MAX_EXEC)
+	lcd_byte(0x00,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
+	lcd_byte(0x06,LCD_CMD) # Sets write mode 
+	time.sleep(MAX_EXEC)
 
-    lcd_byte(0x00,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
-    lcd_byte(0x02,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
+	lcd_byte(0x00,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
+	lcd_byte(0x02,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
 
-    lcd_byte(0x00,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
-    lcd_byte(0x0F,LCD_CMD) #  
-    time.sleep(MAX_EXEC)
+	lcd_byte(0x00,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
+	lcd_byte(0x0F,LCD_CMD) #  
+	time.sleep(MAX_EXEC)
 
-  	#End Initialization
+	#End Initialization
 	print("Ending Init...")
 
 def lcd_string(message):
@@ -270,8 +270,8 @@ def lcd_string(message):
 	# Send string to display
 	message = message.ljust(LCD_WIDTH," ")  
 
- 	for i in range(LCD_WIDTH):
-    	lcd_byte(ord(message[i]),LCD_CHR)
+	for i in range(LCD_WIDTH):
+		lcd_byte(ord(message[i]),LCD_CHR)
 
 def lcd_byte(bits, mode):
 	# Send byte to data pins
@@ -289,7 +289,7 @@ def lcd_byte(bits, mode):
 	if bits&0x10==0x10:
 		GPIO.output(LCD_D4, True)
 	if bits&0x20==0x20:
-  		GPIO.output(LCD_D5, True)
+		GPIO.output(LCD_D5, True)
 	if bits&0x40==0x40:
 		GPIO.output(LCD_D6, True)
 	if bits&0x80==0x80:
@@ -314,7 +314,7 @@ def lcd_byte(bits, mode):
 	if bits&0x04==0x04:
 		GPIO.output(LCD_D6, True)
 	if bits&0x08==0x08:
-  		GPIO.output(LCD_D7, True)
+		GPIO.output(LCD_D7, True)
 
 	# Toggle 'Enable' pin
 	time.sleep(E_DELAY)    
