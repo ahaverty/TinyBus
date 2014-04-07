@@ -168,10 +168,10 @@ def bus_program():
 	cycle=0
 	# Outputs the messages onto the TinyBus
 	while(cycle<maxRow):
+		clrscrn()
 
 		# Display if bus data is available
-		if(bus[0]==True):
-			clrscrn()
+		if(bus[0] is None):
 
 			lcd_byte(LCD_LINE_1, LCD_CMD)
 			lcd_string(busMes[i])
