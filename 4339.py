@@ -170,8 +170,16 @@ def bus_program():
 	while(cycle<maxRow):
 		clrscrn()
 
-		# Display if bus data is available
-		if(bus[0] is None):
+		# Print unavailable message if no data available
+		if(bus[1] is None):
+
+			lcd_byte(LCD_LINE_1, LCD_CMD)
+			lcd_string("   No Realtime")
+			lcd_byte(LCD_LINE_3, LCD_CMD)
+			lcd_string("   Info Available.")
+
+		# Display messages if bus data is available
+		else:
 
 			lcd_byte(LCD_LINE_1, LCD_CMD)
 			lcd_string(busMes[i])
@@ -201,13 +209,6 @@ def bus_program():
 				lcd_byte(LCD_LINE_3, LCD_CMD)
 				lcd_string(dateTimeStamp)
 				i=0
-
-		# Print unavailable message if no data available
-		else:
-			lcd_byte(LCD_LINE_1, LCD_CMD)
-			lcd_string("   No Realtime")
-			lcd_byte(LCD_LINE_3, LCD_CMD)
-			lcd_string("   Info Available.")
 
 		time.sleep(7)
 		cycle+=1
