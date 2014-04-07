@@ -167,7 +167,7 @@ def bus_program():
 	i=0
 	cycle=0
 	# Outputs the messages onto the TinyBus
-	while(cycle<maxRow):
+	while(cycle!=1):
 		clrscrn()
 
 		# Print unavailable message if no data available
@@ -199,19 +199,20 @@ def bus_program():
 				lcd_byte(LCD_LINE_3, LCD_CMD)
 				lcd_string(busMes[i+1])
 				i=0
+				cycle=1
 
 			# If none of the above occured (ie there was a first line but no second line)
 			# then print the current date and time and reset the count to zero for new data
 			else:
-				dateTimeStamp = "  "+time.strftime("%d/%m/%Y")+" "+time.strftime("%H:%M")
+				dateTimeStamp = str("  "+time.strftime("%d/%m/%Y")+" "+time.strftime("%H:%M")+"  ")
 				print ("TESTING DATETIMESTAMP>>")
 
-				lcd_byte(LCD_LINE_3, LCD_CMD)
-				lcd_string(dateTimeStamp)
+				#lcd_byte(LCD_LINE_3, LCD_CMD)
+				#lcd_string(dateTimeStamp)
 				i=0
+				cycle=1
 
 		time.sleep(7)
-		cycle+=1
 
 
 def clrscrn():
